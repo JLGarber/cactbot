@@ -236,7 +236,7 @@ let tests = {
     }
   },
   sealedSyncTest: () => {
-    for (let sync of timeline.syncStarts) {
+    for (let sync of timeline.syncStarts)  {
       let regex = sync.regex.source;
       if (regex.includes('is no longer sealed')) {
         if (!regex.includes('00:0839:.*is no longer sealed'))
