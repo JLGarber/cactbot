@@ -237,10 +237,10 @@ let tests = {
   },
   sealedSyncTest: () => {
     for (let sync of timeline.syncStarts)  {
-      let regex = sync.regex.source;
+      let regex = sync.regex.source ;
       if (regex.includes('is no longer sealed')) {
         if (!regex.includes('00:0839:.*is no longer sealed'))
-          errorFunc(`${timelineFile}:${sync.lineNumber} 'is no longer sealed' sync must be exactly '00:0839:.*is no longer sealed'`);
+          errorFunc(`${timelineFile}\n  ${sync.lineNumber}:1 'is no longer sealed' sync must be exactly '00:0839:.*is no longer sealed'\n`);
       } else if (regex.includes('will be sealed')) {
         if (!regex.match('00:0839:.*will be sealed'))
           errorFunc(`${timelineFile}:${sync.lineNumber} 'will be sealed' sync must be preceded by '00:0839:'`);
