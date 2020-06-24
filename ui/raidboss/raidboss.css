@@ -10,7 +10,7 @@
 
 #timeline-container {
   position: absolute;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 220px;
   height: 100%;

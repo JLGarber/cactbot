@@ -18,7 +18,7 @@
 The code of conduct for cactbot can be found here:
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-## Issues and Bug Reports
+#### Issues and Bug Reports
 
 Please file all issues with cactbot on github,
 via this url:
