@@ -1,0 +1,123 @@
+### WINDURST: THE THIRD WALK
+# ZoneId: 1368
+
+hideall "--Reset--"
+hideall "--sync--"
+
+0.0 "--Reset--" ActorControl { command: "4000000F" } window 0,100000 jump 0
+
+#~~~~~~~~~~~~~~~~~~~~~#
+# Shantotto The Demon #
+#~~~~~~~~~~~~~~~~~~~~~#
+
+# -ii C41D C423 C424 C751
+
+# IGNORED ABILITIES
+# C41D Dainty Step
+# C423 Final Exam
+# C424 Final Exam
+# C751 Superior Stone II
+
+# The Dais Of Ascension will be sealed off
+1000.0 "--sync--" SystemLogMessage { id: "7DC", param1: "1594" } window 1000,1
+1013.1 "Flare Play" Ability { id: "C427", source: "Shantotto the Demon" }
+1022.3 "--sync--" Ability { id: "C425", source: "Shantotto the Demon" } # Vidohunir
+1023.2 "Vidohunir" Ability { id: "C426", source: "Shantotto the Demon" }
+1030.3 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1031.2 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1040.6 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+1041.4 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
+1052.7 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
+1053.7 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
+1054.1 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
+1060.1 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1061.0 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1064.4 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1068.4 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
+1083.4 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
+1086.5 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
+1089.6 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
+1092.7 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
+1096.0 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
+1100.3 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
+1104.3 "--middle" # slow walk, no accompanying ability
+1108.4 "Meteoric Rhyme" Ability { id: "C406", source: "Shantotto the Demon" }
+1115.5 "Small Specimen x12" duration 22.6 #Ability { id: "C408", source: "Shantotto the Demon" }
+1122.5 "Large Specimen" #Ability { id: "C40A", source: "" }
+1137.1 "Stardust Specimen" Ability { id: "C409", source: "Shantotto the Demon" }
+1145.2 "--east/west--" Ability { id: "C407", source: "Shantotto the Demon" }
+1150.8 "--untargetable--"
+1150.9 "--sync--" Ability { id: "C5D8", source: "Shantotto the Demon" }
+1159.6 "Shockwave" Ability { id: "C40B", source: "Shantotto the Demon" } window 30,30
+1161.8 "--targetable--"
+1167.5 "Falling Rubble" duration 6 #Ability { id: "C40F", source: "Shantotto the Demon" }
+1179.1 "--middle--" # slow walk, no accompanying ability
+1183.1 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+
+1184.0 label "shantotto-loop"
+1184.0 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
+1188.3 "Aero Dynamics" Ability { id: "C416", source: "Shantotto the Demon" }
+1198.4 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1199.3 "Aero Dynamics" Ability { id: "C417", source: "Shantotto the Demon" }
+1207.9 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
+1208.9 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
+1209.3 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
+1214.2 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1215.1 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1219.5 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1223.5 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
+1240.4 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
+1243.5 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
+1246.6 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
+1249.7 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
+1252.8 "Circumscribed Fire 5" Ability { id: "C41A", source: "Shantotto the Demon" }
+1255.9 "Circumscribed Fire 6" Ability { id: "C41A", source: "Shantotto the Demon" }
+1259.2 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
+1263.1 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
+1277.4 "Flare Play" Ability { id: "C427", source: "Shantotto the Demon" }
+1287.0 "Final Exam x3" Ability { id: "C422", source: "Shantotto the Demon" } duration 3
+1295.3 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1296.2 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1306.8 "--sync--" Ability { id: "C425", source: "Shantotto the Demon" } # Vidohunir
+1307.7 "Vidohunir" Ability { id: "C426", source: "Shantotto the Demon" }
+
+1319.7 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+1320.6 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" } forcejump "shantotto-loop"
+
+
+
+# ALL ENCOUNTER ABILITIES
+# C406 Meteoric Rhyme: Summon puddles
+# C407 --sync--: Move east/west for ultimate attack
+# C408 Small Specimen: Meteor puddles
+# C409 Stardust Specimen: Stack marker
+# C40A Large Specimen: Proximity AoE
+# C40B Shockwave: Ultimate raidwide
+# C40C Falling Rubble: Circle AoE
+# C40D Falling Rubble: Circle AoE
+# C40E Falling Rubble: Line AoE
+# C40F Falling Rubble: Line AoE
+# C410 --sync--: reposition
+# C411 Superior Stone II: Walls + raidwide castbar
+# C412 Superior Stone II: Raidwide
+# C413 Groundbreaking Quake: Wall collapse castbar
+# C414 Groundbreaking Quake: Wall collapse
+# C415 Painful Pressure: Wall removal
+# C416 Aero Dynamics: Inflict wind movement debuff
+# C417 Aero Dynamics: Wind movement debuff resolve
+# C418 Diagrammatic Doorway: Summon ley lines
+# C419 Circumscribed Fire: First fire dynamo
+# C41A Circumscribed Fire: Moving fire dynamo
+# C41B Localized Blizzard: Ice chariot
+# C41C Thunder and Error: Lightning spread circles
+# C41D Dainty Step: Move between ley lines
+# C41E Empirical Research: Frontal line AoE castbar
+# C420 Empirical Research: Frontal line AoE
+# C422 Final Exam: Stack marker castbar
+# C423 Final Exam: Stack marker initial hit
+# C424 Final Exam: Stack marker follow-up hits
+# C425 Vidohunir: Tank buster castbar
+# C426 Vidohunir: Tank buster
+# C427 Flare Play: Raidwide
+# C4CE --sync--: Unknown, something to do with Aero Dynamics
+# C751 Superior Stone II: Walls appear
