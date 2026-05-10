@@ -121,3 +121,163 @@ hideall "--sync--"
 # C427 Flare Play: Raidwide
 # C4CE --sync--: Unknown, something to do with Aero Dynamics
 # C751 Superior Stone II: Walls appear
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~#
+# Alexander Resurrected #
+#~~~~~~~~~~~~~~~~~~~~~~~#
+
+# -ii C3CE C3CF C3D0 C3D1 C3EF C3F5 C3F6 C404 C52E C6A1
+
+# IGNORED ABILITIES
+# C3CE Divine Arrow: Jump animation. Uncertain what differentiates it from C3CF
+# C3CF Divine Arrow: Jump animation. Uncertain what differentiates it from C3CE
+# C3D0 Divine Arrow: Jump animation?
+# C3D1 Divine Arrow: Jump animation?
+# C3EF Mega Holy: Stack marker second + third hits
+# C3F5 Holy II: Baited puddles during Banishga IV
+# C3F6 Repay: Karmic Shielding retaliation
+# C404 --sync--: Auto-attack
+# C52E Divine Arrow: Spinning cleave active
+# C6A1 Divine Bolt: Solo laser tank buster
+
+# The Ruin Of Light Divine will be sealed off
+2000.0 "--sync--" SystemLogMessage { id: "7DC", param1: "1597" } window 2000,1
+2013.1 "Banishga IV (raidwide)" Ability { id: "C3F1", source: "Alexander Resurrected" }
+2021.9 "--middle--" Ability { id: "C3CB", source: "Alexander Resurrected" }
+2035.0 "Divine Arrow (castbar)" Ability { id: ["C3CC", "C3CD"], source: "Alexander Resurrected" }
+2038.2 "Divine Arrow (cone)" Ability { id: "C3D2", source: "Alexander Resurrected" } duration 12
+2045.8 "Divine Arrow 1 (in/out ring)" Ability { id: ["C3D3", "C3D8"], source: "Alexander Resurrected" }
+2047.8 "Divine Arrow 2 (mid ring)" Ability { id: ["C3D4", "C3D7"], source: "Alexander Resurrected" }
+2049.8 "Divine Arrow 3 (out/in ring)" Ability { id: ["C3D5", "C3D6"], source: "Alexander Resurrected" }
+2055.0 "Banishga IV (spreads)" Ability { id: "C3F3", source: "Alexander Resurrected" }
+2068.7 "Impartial Ruling (castbar)" Ability { id: ["C3E0", "C3E1"], source: "Alexander Resurrected" }
+2069.5 "Impartial Ruling (left/right)" Ability { id: "C3E2", source: "Alexander Resurrected" }
+2072.5 "Impartial Ruling (right/left)" Ability { id: "C3E3", source: "Alexander Resurrected" }
+2078.9 "Canonize Coordinates" Ability { id: "C3DB", source: "Alexander Resurrected" }
+2087.0 "Radiant Sacrament (castbar)" Ability { id: "C3DC", source: "Alexander Resurrected" }
+2100.0 "Radiant Sacrament (explosions)" duration 3 #Ability { id: "C3DD", source: "Alexander Resurrected" }
+2109.2 "Divine Spear (castbar)" Ability { id: "C3DE", source: "Alexander Resurrected" }
+2119.3 "Divine Spear (explosion)" Ability { id: "C3DF", source: "Alexander Resurrected" }
+2123.7 "Mega Holy (castbar)" Ability { id: "C3ED", source: "Alexander Resurrected" }
+2124.3 "Mega Holy x3" Ability { id: "C3EE", source: "Alexander Resurrected" } duration 3.3
+2133.0 "--middle--" Ability { id: "C3CB", source: "Alexander Resurrected" }
+2139.2 "Sacred Assembly" Ability { id: "C3E4", source: "Alexander Resurrected" }
+2141.2 "Activate" Ability { id: "C42B", source: "Alexander Resurrected" }
+2142.6 "--sync--" StartsUsing { id: "C3E5", source: "Alexander Resurrected" } window 142.6,10
+
+
+2148.3 "Perfect Defense" Ability { id: "C3E5", source: "Alexander Resurrected" }
+2158.4 "Karmic Shielding" Ability { id: "C5FE", source: "Gordius System" }
+2162.4 "Holy Flame" #Ability { id: "C3E6", source: "Alexander Resurrected" }
+2168.4 "--sync--" Ability { id: "C3F9", source: "Gordius System" } # Circuit Shock
+2168.4 "Shock" Ability { id: "C3E8", source: "Gordius System" }
+2174.4 "Karmic Shielding" Ability { id: "C5FE", source: "Gordius System" }
+2178.4 "Holy Flame" #Ability { id: "C3E6", source: "Alexander Resurrected" }
+2184.4 "Shock" Ability { id: "C3E8", source: "Gordius System" }
+2184.4 "--sync--" Ability { id: "C3F9", source: "Gordius System" } # Circuit Shock
+
+# This is the latest Divine Judgment can be cast
+2190.1 "--sync--" StartsUsing { id: "C3E9", source: "Alexander Resurrected" } window 70,20
+2200.1 "Divine Judgment" Ability { id: "C3E9", source: "Alexander Resurrected" }
+2213.3 "--middle--" Ability { id: "C3CB", source: "Alexander Resurrected" }
+2226.6 "Divine Arrow (castbar)" Ability { id: "C3CD", source: "Alexander Resurrected" }
+2229.8 "Divine Arrow (cone)" Ability { id: "C3D2", source: "Alexander Resurrected" } duration 12
+2231.4 "Divine Arrow 1 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2233.4 "Divine Arrow 2 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2237.4 "Divine Arrow 3 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2239.4 "Divine Arrow 4 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2244.6 "Banishga IV (spreads)" Ability { id: "C3F3", source: "Alexander Resurrected" }
+2252.0 "Sacred Assembly" Ability { id: "C3E4", source: "Alexander Resurrected" }
+2254.0 "Activate" #Ability { id: "C42B", source: "Alexander Resurrected" }
+2258.1 "Reinforcements" Ability { id: "C3EA", source: "Alexander Resurrected" }
+2268.2 "Electrify 1" #Ability { id: "C3EC", source: "Gordius System" }
+2271.2 "Electrify 2" #Ability { id: "C3EC", source: "Gordius System" }
+
+
+2281.2 label "alexander-loop"
+2281.2 "Banishga IV (spread)" Ability { id: "C3F3", source: "Alexander Resurrected" }
+2281.3 "Divine Bolt" Ability { id: "C3F0", source: "Alexander Resurrected" }
+2287.6 "Canonize Coordinates" Ability { id: "C3DB", source: "Alexander Resurrected" }
+2295.7 "Radiant Sacrament (castbar)" Ability { id: "C3DC", source: "Alexander Resurrected" }
+2303.9 "--middle--" Ability { id: "C3CB", source: "Alexander Resurrected" }
+2305.9 "Radiant Sacrament (explosions)" duration 3 #Ability { id: "C3DD", source: "Alexander Resurrected" }
+2313.4 "Impartial Ruling (castbar)" Ability { id: ["C3E0", "C3E1"], source: "Alexander Resurrected" }
+2314.2 "Impartial Ruling (left/right)" Ability { id: "C3E2", source: "Alexander Resurrected" }
+2317.2 "Impartial Ruling (right/left)" Ability { id: "C3E3", source: "Alexander Resurrected" }
+2317.2 "Banishga IV" Ability { id: "C3F3", source: "Alexander Resurrected" }
+2325.8 "Sacred Assembly" Ability { id: "C3E4", source: "Alexander Resurrected" }
+2327.8 "Activate" Ability { id: "C42B", source: "Alexander Resurrected" }
+2331.9 "Reinforcements" Ability { id: "C3EA", source: "Alexander Resurrected" }
+2342.0 "Electrify 1" #Ability { id: "C3EC", source: "Gordius System" }
+2345.0 "Electrify 2" #Ability { id: "C3EC", source: "Gordius System" }
+2348.6 "Impartial Ruling (castbar)" Ability { id: ["C3E0", "C3E1"], source: "Alexander Resurrected" }
+2349.4 "Impartial Ruling (left/right)" Ability { id: "C3E2", source: "Alexander Resurrected" }
+2352.4 "Impartial Ruling (right/left)" Ability { id: "C3E3", source: "Alexander Resurrected" }
+2361.8 "Banishga IV" Ability { id: "C3F1", source: "Alexander Resurrected" }
+2370.9 "Divine Spear (castbar)" Ability { id: "C3DE", source: "Alexander Resurrected" }
+2381.0 "Divine Spear (explosion)" Ability { id: "C3DF", source: "Alexander Resurrected" }
+2385.0 "Mega Holy (castbar)" Ability { id: "C3ED", source: "Alexander Resurrected" }
+2385.4 "Mega Holy x3" Ability { id: "C3EE", source: "Alexander Resurrected" }
+2395.3 "--middle--" Ability { id: "C3CB", source: "Alexander Resurrected" }
+2408.6 "Divine Arrow (castbar)" Ability { id: ["C3CC", "C3CD"], source: "Alexander Resurrected" }
+2411.8 "Divine Arrow (cone)" Ability { id: "C3D2", source: "Alexander Resurrected" } duration 12
+2413.2 "Divine Arrow 1 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2415.2 "Divine Arrow 2 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2419.2 "Divine Arrow 3 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2421.2 "Divine Arrow 4 (grid)" #Ability { id: ["C3D9", "C3DA"], source: "Alexander Resurrected" }
+2426.4 "Banishga IV (spread)" Ability { id: "C3F3", source: "Alexander Resurrected" } forcejump "alexander-loop"
+
+
+
+# IGNORED ABILITIES
+# C404 --sync--
+
+# ALL ENCOUNTER ABILITIES
+# C3CB --middle--
+# C3CC Divine Arrow: Castbar. Uncertain what differentiates it from C3CD
+# C3CD Divine Arrow: Castbar. Uncertain what differentiates it from C3CC
+# C3CE Divine Arrow: Jump animation. Uncertain what differentiates it from C3CF
+# C3CF Divine Arrow: Jump animation. Uncertain what differentiates it from C3CE
+# C3D0 Divine Arrow: Jump animation?
+# C3D1 Divine Arrow: Jump animation?
+# C3D2 Divine Arrow: Initial cleave, counterclockwise
+# C3D3 Divine Arrow: Chariot AoE, in-to-out pattern
+# C3D4 Divine Arrow: Middle ring AoE, in-to-out pattern
+# C3D5 Divine Arrow: Outer ring AoE, in-to-out pattern
+# C3D6 Divine Arrow: Chariot AoE, out-to-in pattern
+# C3D7 Divine Arrow: Middle ring AoE, out-to-in pattern
+# C3D8 Divine Arrow: Outer ring AoE, out-to-in pattern
+# C3D9 Divine Arrow: 3 vertical + 2 horizontal crosshatch lines
+# C3DA Divine Arrow: 2 vertical + 3 horizontal crosshatch lines
+# C3DB Canonize Coordinates: Display Sacrament grid lines
+# C3DC Radiant Sacrament: Castbar; displays grid explosion pattern
+# C3DD Radiant Sacrament: Grid explosions
+# C3DE Divine Spear: Pinwheel lines castbar
+# C3DF Divine Spear: Pinwheel lines
+# C3E0 Impartial Ruling: Left-then-right half arena castbar
+# C3E1 Impartial Ruling: Right-then-left half arena castbar
+# C3E2 Impartial Ruling: Half arena cleave 1
+# C3E3 Impartial Ruling: Half arena cleave 2
+# C3E4 Sacred Assembly: Summon targetable Gordius System adds
+# C3E5 Perfect Defense: Alexander untargetable for intermission
+# C3E6 Holy Flame: Baited puddles
+# C3E8 Shock: Chariot AoE, Gordius System
+# C3E9 Divine Judgment: Intermission ultimate
+# C3EA Reinforcements: Summon untargetable Gordius System adds
+# C3EC Electrify: Large circle AoEs, Gordius System
+# C3ED Mega Holy: Stack marker castbar
+# C3EE Mega Holy: Stack marker first hit
+# C3EF Mega Holy: Stack marker second + third hits
+# C3F0 Divine Bolt: Tank buster castbar
+# C3F1 Banishga IV: Raidwide
+# C3F3 Banishga IV: Spread circles
+# C3F5 Holy II: Baited puddles during Banishga IV
+# C3F6 Repay: Karmic Shielding retaliation
+# C3F9 Circuit Shock: Dynamo AoE, Gordius System
+# C404 --sync--: Auto-attack
+# C42B Activate: Gordius System activation
+# C52E Divine Arrow: Spinning cleave active
+# C5FE Karmic Shielding: Activates Repay retaliation, Gordius System
+# C6A1 Divine Bolt: Solo laser tank buster
+
