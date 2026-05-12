@@ -439,3 +439,176 @@ hideall "--sync--"
 # C51C Winds of Promyvion: Spinny laser follow-ups, intermission
 # C585 Infernal Deliverance: Tower puddle follow-up
 # C606 Deadly Rebirth: Raidwide after intermission, castbar
+
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# Shinryu Paradox/Hollow King #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+# -ii BFD2 BFD3 BFD5 BFD6 BFD8 BFDA BFDB BFDC BFE2 BFE3 BFE5 BFE9 BFEA BFEB BFEC BFEF BFF1 BFF2 BFF5 BFF8 C001 C002 C003 C004 C007 C008 C00A C00B C01C C01D C01F
+
+# IGNORED ABILITIES
+# BFD2 Cosmic Breath
+# BFD3 Cosmic Breath
+# BFD5 Cosmic Tail
+# BFD6 Cosmic Tail
+# BFD8 Cloak of Twilight
+# BFDA Twilight Nebula
+# BFDB Twilight Radiance
+# BFDC Twilight Shadow
+# BFE2 Cataclysmic Vortex
+# BFE3 Cataclysmic Vortex
+# BFE5 Starflare
+# BFE9 Atomic Tail
+# BFEA Atomic Tail
+# BFEB Gyre Charge
+# BFEC Gyre Charge
+# BFEF Dark Nova
+# BFF1 --sync--
+# BFF2 --sync--
+# BFF5 Celestial Trail
+# BFF8 Celestial Trail
+# C001 Right Swordscross
+# C002 Left Swordscross
+# C003 Right Swordscross
+# C004 Left Swordscross
+# C007 Twin Blaze
+# C008 Twin Blaze
+# C00A Cataclysmic Blade
+# C00B Cataclysmic Blade
+# C01C --sync--
+# C01D --sync--
+# C01F Super Nova
+
+4000.0 "--sync--" SystemLogMessage { id: "7DC", param1: "1592" } window 4000,1
+4013.2 "Cosmic Breath/Cosmic Tail" Ability { id: ["BFD1", "BFD4"], source: "Shinryu Paradox" } window 4013,10
+4028.9 "Cosmic Breath/Cosmic Tail" Ability { id: ["BFD1", "BFD4"], source: "Shinryu Paradox" }
+4036.6 "Cloak of Twilight" Ability { id: "BFD7", source: "Shinryu Paradox" }
+4050.3 "Twilight Nebula" Ability { id: "BFD9", source: "Shinryu Paradox" }
+4057.9 "Starflare (castbar)" Ability { id: "BFE4", source: "Shinryu Paradox" }
+4062.9 "Starflare 1 (lines)" Ability { id: "BFE6", source: "Shinryu Paradox" }
+4064.9 "Starflare 2 (lines)" Ability { id: "BFE7", source: "Shinryu Paradox" }
+4068.5 "Cosmic Breath/Cosmic Tail" Ability { id: ["BFD1", "BFD4"], source: "Shinryu Paradox" }
+4082.2 "Cataclysmic Vortex" Ability { id: "BFE1", source: "Shinryu Paradox" }
+4090.8 "Cloak of Twilight" Ability { id: "BFD7", source: "Shinryu Paradox" }
+4100.6 "Cosmic Breath/Cosmic Tail" Ability { id: ["BFD1", "BFD4"], source: "Shinryu Paradox" }
+4110.2 "Twilight Nebula" Ability { id: "BFD9", source: "Shinryu Paradox" }
+4116.8 "Starflare (castbar)" Ability { id: "BFE4", source: "Shinryu Paradox" }
+4121.8 "Starflare 1 (lines)" Ability { id: "BFE6", source: "Shinryu Paradox" }
+4123.8 "Starflare 2 (lines)" Ability { id: "BFE7", source: "Shinryu Paradox" }
+4127.4 "Cataclysmic Vortex" Ability { id: "BFE1", source: "Shinryu Paradox" }
+4136.0 "Dark Nova (castbar)" Ability { id: "BFEE", source: "Shinryu Paradox" }
+4137.1 "Dark Nova (buster)" Ability { id: "BFF0", source: "Shinryu Paradox" }
+4149.7 "Atomic Tail" Ability { id: "BFE8", source: "Shinryu Paradox" }
+4156.1 "Gyre Charge" Ability { id: "BFED", source: "Shinryu Paradox" }
+4156.2 "--untargetable--"
+
+4209.0 "--targetable--"
+4211.2 "Celestial Trail" Ability { id: "BFF3", source: "Hollow King" } window 200,10
+4237.9 "Celestial Trail 1 (towers)" #Ability { id: "BFF4", source: "Hollow King" }
+4240.7 "Celestial Trail 1 (damage)" #Ability { id: "BFF6", source: "Hollow King" }
+4245.1 "Celestial Trail 1 (knockback)" #Ability { id: "BFF7", source: "Hollow King" }
+4257.1 "Celestial Trail 2 (towers)" #Ability { id: "BFF4", source: "Hollow King" }
+4259.9 "Celestial Trail 2 (damage)" #Ability { id: "BFF6", source: "Hollow King" }
+4264.3 "Celestial Trail 2 (knockback)" #Ability { id: "BFF7", source: "Hollow King" }
+4293.9 "Empty Proclamation" Ability { id: "C01B", source: "Hollow King" } window 300,30
+4305.0 "Left Swordscross/Right Swordscross" Ability { id: ["C000", "BFFF"], source: "Hollow King" }
+4316.7 "Twin Blaze" Ability { id: ["C005", "C006"], source: "Hollow King" }
+4330.9 "Cataclysmic Blade" Ability { id: "C009", source: "Hollow King" }
+
+4341.9 label "king-loop"
+4342.0 "Burst (castbar)" Ability { id: "C012", source: "Hollow King" }
+4347.0 "Burst 1 (small)" Ability { id: "C013", source: "Hollow King" }
+4349.0 "Burst 2 (medium)" Ability { id: "C014", source: "Hollow King" }
+4351.0 "Burst 3 (large)" Ability { id: "C015", source: "Hollow King" }
+4354.1 "Twin Blaze" Ability { id: ["C005", "C006"], source: "Hollow King" }
+4363.3 "Cosmic Flame" Ability { id: "C00E", source: "Hollow King" } duration 15
+4373.5 "Atomic Ray (castbar)" Ability { id: "C00C", source: "Hollow King" }
+4386.3 "Atomic Ray (lines)" Ability { id: "C00D", source: "Arcane Sphere" }
+4392.6 "Cataclysmic Blade" Ability { id: "C009", source: "Hollow King" }
+4404.7 "Super Nova x3" Ability { id: "C01E", source: "Hollow King" } duration 5
+4411.8 "Empty Proclamation" Ability { id: "C01B", source: "Hollow King" }
+4426.0 "Cosmic Flame" Ability { id: "C00E", source: "Hollow King" } duration 15
+4441.2 "Left Swordscross/Right Swordscross" Ability { id: ["C000", "BFFF"], source: "Hollow King" }
+4449.9 "Starflare (castbar)" Ability { id: "C016", source: "Hollow King" }
+4454.9 "Starflare 1 (lines)" Ability { id: "C017", source: "Hollow King" }
+4456.9 "Starflare 2 (lines)" Ability { id: "C018", source: "Hollow King" }
+4464.0 "Left Swordscross/Right Swordscross" Ability { id: ["C000", "BFFF"], source: "Hollow King" }
+4474.7 "Super Nova x3" Ability { id: "C01E", source: "Hollow King" } duration 5
+4484.8 "Dark Nova (castbar)" Ability { id: "C019", source: "Hollow King" }
+4485.9 "Dark Nova (buster)" Ability { id: "C01A", source: "Hollow King" }
+
+4498.9 "Burst (castbar)" Ability { id: "C012", source: "Hollow King" } forcejump "king-loop"
+
+# ALL ENCOUNTER ABILITIES
+# BFD1 Cosmic Breath
+# BFD2 Cosmic Breath
+# BFD3 Cosmic Breath
+# BFD4 Cosmic Tail
+# BFD5 Cosmic Tail
+# BFD6 Cosmic Tail
+# BFD7 Cloak of Twilight
+# BFD8 Cloak of Twilight
+# BFD9 Twilight Nebula
+# BFDA Twilight Nebula
+# BFDB Twilight Radiance
+# BFDC Twilight Shadow
+# BFE1 Cataclysmic Vortex
+# BFE2 Cataclysmic Vortex
+# BFE3 Cataclysmic Vortex
+# BFE4 Starflare
+# BFE5 Starflare
+# BFE6 Starflare
+# BFE7 Starflare
+# BFE8 Atomic Tail
+# BFE9 Atomic Tail
+# BFEA Atomic Tail
+# BFEB Gyre Charge
+# BFEC Gyre Charge
+# BFED Gyre Charge
+# BFEE Dark Nova
+# BFEF Dark Nova
+# BFF0 Dark Nova
+# BFF1 --sync--
+# BFF2 --sync--
+# BFF3 Celestial Trail
+# BFF4 Celestial Trail
+# BFF5 Celestial Trail
+# BFF6 Celestial Trail
+# BFF7 Celestial Trail
+# BFF8 Celestial Trail
+# BFF9 Celestial Trail
+# BFFF Right Swordscross
+# C000 Left Swordscross
+# C001 Right Swordscross
+# C002 Left Swordscross
+# C003 Right Swordscross
+# C004 Left Swordscross
+# C005 Twin Blaze
+# C006 Twin Blaze
+# C007 Twin Blaze
+# C008 Twin Blaze
+# C009 Cataclysmic Blade
+# C00A Cataclysmic Blade
+# C00B Cataclysmic Blade
+# C00C Atomic Ray
+# C00D Atomic Ray
+# C00E Cosmic Flame
+# C00F Cosmic Flame
+# C010 Cosmic Flame
+# C011 Cosmic Flame
+# C012 Burst
+# C013 Burst
+# C014 Burst
+# C015 Burst
+# C016 Starflare
+# C017 Starflare
+# C018 Starflare
+# C019 Dark Nova
+# C01A Dark Nova
+# C01B Empty Proclamation
+# C01C --sync--
+# C01D --sync--
+# C01E Super Nova
+# C01F Super Nova
+
