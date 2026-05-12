@@ -23,66 +23,66 @@ hideall "--sync--"
 1013.1 "Flare Play" Ability { id: "C427", source: "Shantotto the Demon" }
 1022.3 "--sync--" Ability { id: "C425", source: "Shantotto the Demon" } # Vidohunir
 1023.2 "Vidohunir" Ability { id: "C426", source: "Shantotto the Demon" }
-1030.3 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
-1031.2 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
-1040.6 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
-1041.4 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
-1052.7 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
-1053.7 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
-1054.1 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
-1060.1 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
-1061.0 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
-1064.4 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
-1068.4 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
-1083.4 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
-1086.5 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
-1089.6 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
-1092.7 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
-1096.0 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
-1100.3 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
-1104.3 "--middle" # slow walk, no accompanying ability
-1108.4 "Meteoric Rhyme" Ability { id: "C406", source: "Shantotto the Demon" }
-1115.5 "Small Specimen x12" duration 22.6 #Ability { id: "C408", source: "Shantotto the Demon" }
-1122.5 "Large Specimen" #Ability { id: "C40A", source: "" }
-1137.1 "Stardust Specimen" Ability { id: "C409", source: "Shantotto the Demon" }
-1145.2 "--east/west--" Ability { id: "C407", source: "Shantotto the Demon" }
-1150.8 "--untargetable--"
-1150.9 "--sync--" Ability { id: "C5D8", source: "Shantotto the Demon" }
-1159.6 "Shockwave" Ability { id: "C40B", source: "Shantotto the Demon" } window 30,30
-1161.8 "--targetable--"
-1167.5 "Falling Rubble" duration 6 #Ability { id: "C40F", source: "Shantotto the Demon" }
-1179.1 "--middle--" # slow walk, no accompanying ability
-1183.1 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+1030.2 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1031.1 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1040.0 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+1040.8 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
+1052.1 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
+1053.1 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
+1053.5 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
+1059.4 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1060.2 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1063.6 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1067.7 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
+1082.7 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
+1085.8 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
+1088.9 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
+1092.0 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
+1095.3 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
+1099.6 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
+1103.6 "--middle" # slow walk, no accompanying ability
+1107.8 "Meteoric Rhyme" Ability { id: "C406", source: "Shantotto the Demon" }
+1114.9 "Small Specimen x12" duration 22.6 #Ability { id: "C408", source: "Shantotto the Demon" }
+1121.9 "Large Specimen" #Ability { id: "C40A", source: "" }
+1136.7 "Stardust Specimen" Ability { id: "C409", source: "Shantotto the Demon" }
+1144.8 "--east/west--" Ability { id: "C407", source: "Shantotto the Demon" }
+1150.4 "--untargetable--"
+1150.5 "--sync--" Ability { id: "C5D8", source: "Shantotto the Demon" }
+1159.2 "Shockwave" Ability { id: "C40B", source: "Shantotto the Demon" } window 30,30
+1161.4 "--targetable--"
+1167.1 "Falling Rubble" duration 6 #Ability { id: "C40F", source: "Shantotto the Demon" }
+1178.7 "--middle--" # slow walk, no accompanying ability
+1183.3 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
 
-1184.0 label "shantotto-loop"
-1184.0 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
-1188.3 "Aero Dynamics" Ability { id: "C416", source: "Shantotto the Demon" }
-1198.4 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
-1199.3 "Aero Dynamics" Ability { id: "C417", source: "Shantotto the Demon" }
-1207.9 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
-1208.9 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
-1209.3 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
+1184.1 label "shantotto-loop"
+1184.1 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" }
+1188.4 "Aero Dynamics" Ability { id: "C416", source: "Shantotto the Demon" }
+1198.5 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1199.4 "Aero Dynamics" Ability { id: "C417", source: "Shantotto the Demon" }
+1207.8 "--sync--" Ability { id: "C413", source: "Shantotto the Demon" } # Groundbreaking Quake
+1208.8 "Groundbreaking Quake" Ability { id: "C414", source: "Shantotto the Demon" }
+1209.2 "Painful Pressure" Ability { id: "C415", source: "Shantotto the Demon" }
 1214.2 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
-1215.1 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
-1219.5 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
-1223.5 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
-1240.4 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
-1243.5 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
-1246.6 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
-1249.7 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
-1252.8 "Circumscribed Fire 5" Ability { id: "C41A", source: "Shantotto the Demon" }
-1255.9 "Circumscribed Fire 6" Ability { id: "C41A", source: "Shantotto the Demon" }
-1259.2 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
-1263.1 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
-1277.4 "Flare Play" Ability { id: "C427", source: "Shantotto the Demon" }
-1287.0 "Final Exam x3" Ability { id: "C422", source: "Shantotto the Demon" } duration 3
-1295.3 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
-1296.2 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
-1306.8 "--sync--" Ability { id: "C425", source: "Shantotto the Demon" } # Vidohunir
-1307.7 "Vidohunir" Ability { id: "C426", source: "Shantotto the Demon" }
+1215.0 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1219.4 "--middle--" Ability { id: "C410", source: "Shantotto the Demon" }
+1223.4 "Diagrammatic Doorway" Ability { id: "C418", source: "Shantotto the Demon" }
+1240.3 "Circumscribed Fire 1" Ability { id: "C419", source: "Shantotto the Demon" }
+1243.4 "Circumscribed Fire 2" Ability { id: "C41A", source: "Shantotto the Demon" }
+1246.5 "Circumscribed Fire 3" Ability { id: "C41A", source: "Shantotto the Demon" }
+1249.6 "Circumscribed Fire 4" Ability { id: "C41A", source: "Shantotto the Demon" }
+1252.7 "Circumscribed Fire 5" Ability { id: "C41A", source: "Shantotto the Demon" }
+1255.8 "Circumscribed Fire 6" Ability { id: "C41A", source: "Shantotto the Demon" }
+1259.1 "Localized Blizzard" Ability { id: "C41B", source: "Shantotto the Demon" }
+1263.0 "Thunder and Error" #Ability { id: "C41C", source: "Shantotto the Demon" }
+1277.3 "Flare Play" Ability { id: "C427", source: "Shantotto the Demon" }
+1286.9 "Final Exam x3" Ability { id: "C422", source: "Shantotto the Demon" } duration 3
+1295.2 "--sync--" Ability { id: "C41E", source: "Shantotto the Demon" } # Empirical Research
+1296.0 "Empirical Research" Ability { id: "C420", source: "Shantotto the Demon" }
+1306.6 "--sync--" Ability { id: "C425", source: "Shantotto the Demon" } # Vidohunir
+1307.5 "Vidohunir" Ability { id: "C426", source: "Shantotto the Demon" }
 
-1319.7 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
-1320.6 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" } forcejump "shantotto-loop"
+1319.5 "--sync--" Ability { id: "C411", source: "Shantotto the Demon" } # Superior Stone II
+1320.4 "Superior Stone II" Ability { id: "C412", source: "Shantotto the Demon" } forcejump "shantotto-loop"
 
 
 
