@@ -444,37 +444,37 @@ hideall "--sync--"
 # -ii BFD2 BFD3 BFD5 BFD6 BFD8 BFDA BFDB BFDC BFE2 BFE3 BFE5 BFE9 BFEA BFEB BFEC BFEF BFF1 BFF2 BFF5 BFF8 C001 C002 C003 C004 C007 C008 C00A C00B C01C C01D C01F
 
 # IGNORED ABILITIES
-# BFD2 Cosmic Breath
-# BFD3 Cosmic Breath
-# BFD5 Cosmic Tail
-# BFD6 Cosmic Tail
-# BFD8 Cloak of Twilight
-# BFDA Twilight Nebula
-# BFDB Twilight Radiance
-# BFDC Twilight Shadow
-# BFE2 Cataclysmic Vortex
-# BFE3 Cataclysmic Vortex
-# BFE5 Starflare
-# BFE9 Atomic Tail
-# BFEA Atomic Tail
-# BFEB Gyre Charge
-# BFEC Gyre Charge
-# BFEF Dark Nova
-# BFF1 --sync--
-# BFF2 --sync--
-# BFF5 Celestial Trail
-# BFF8 Celestial Trail
-# C001 Right Swordscross
-# C002 Left Swordscross
-# C003 Right Swordscross
-# C004 Left Swordscross
-# C007 Twin Blaze
-# C008 Twin Blaze
-# C00A Cataclysmic Blade
-# C00B Cataclysmic Blade
-# C01C --sync--
-# C01D --sync--
-# C01F Super Nova
+# BFD2 Cosmic Breath: Upper platform denial, lower castbar
+# BFD3 Cosmic Breath: Upper platform denial
+# BFD5 Cosmic Tail: Lower platform denial, lower castbar
+# BFD6 Cosmic Tail: Lower platform denial
+# BFD8 Cloak of Twilight: Lower platform aspect
+# BFDA Twilight Nebula: Lower platform debuff cast
+# BFDB Twilight Radiance: Light aspect floor explosion
+# BFDC Twilight Shadow: Dark aspect floor explosion
+# BFE2 Cataclysmic Vortex: Lower platform Simon Says cast
+# BFE3 Cataclysmic Vortex: Simon Says failure?
+# BFE5 Starflare: Lower platform grid line AoE castbar
+# BFE9 Atomic Tail: Lower platform lower platform destruction castbar
+# BFEA Atomic Tail: Lower platform destruction
+# BFEB Gyre Charge: Upper platform intermission cast
+# BFEC Gyre Charge: Lower platform intermission cast
+# BFEF Dark Nova: Lower platform tank cleave castbar
+# BFF1 --sync--: auto-attack self-cast
+# BFF2 --sync--: auto-attack
+# BFF5 Celestial Trail: Tower animation?
+# BFF8 Celestial Trail: Tower animation?
+# C001 Right Swordscross: Right-side cleave, orthogonal
+# C002 Left Swordscross: Left-side cleave, orthogonal
+# C003 Right Swordscross: Right-side cleave, diagonal
+# C004 Left Swordscross: Left-side cleave, diagonal
+# C007 Twin Blaze: Cone AoE
+# C008 Twin Blaze: Dynamo AoE
+# C00A Cataclysmic Blade: Blue cone AoEs
+# C00B Cataclysmic Blade: Debuff failure?
+# C01C --sync--: auto-attack self-cast
+# C01D --sync--: auto-attack
+# C01F Super Nova: Stack marker hits
 
 4000.0 "--sync--" SystemLogMessage { id: "7DC", param1: "1592" } window 4000,1
 4013.2 "Cosmic Breath/Cosmic Tail" Ability { id: ["BFD1", "BFD4"], source: "Shinryu Paradox" } window 4013,10
@@ -537,74 +537,78 @@ hideall "--sync--"
 4498.9 "Burst (castbar)" Ability { id: "C012", source: "Hollow King" } forcejump "king-loop"
 
 # ALL ENCOUNTER ABILITIES
-# BFD1 Cosmic Breath
-# BFD2 Cosmic Breath
-# BFD3 Cosmic Breath
-# BFD4 Cosmic Tail
-# BFD5 Cosmic Tail
-# BFD6 Cosmic Tail
-# BFD7 Cloak of Twilight
-# BFD8 Cloak of Twilight
-# BFD9 Twilight Nebula
-# BFDA Twilight Nebula
-# BFDB Twilight Radiance
-# BFDC Twilight Shadow
-# BFE1 Cataclysmic Vortex
-# BFE2 Cataclysmic Vortex
-# BFE3 Cataclysmic Vortex
-# BFE4 Starflare
-# BFE5 Starflare
-# BFE6 Starflare
-# BFE7 Starflare
-# BFE8 Atomic Tail
-# BFE9 Atomic Tail
-# BFEA Atomic Tail
-# BFEB Gyre Charge
-# BFEC Gyre Charge
-# BFED Gyre Charge
-# BFEE Dark Nova
-# BFEF Dark Nova
-# BFF0 Dark Nova
-# BFF1 --sync--
-# BFF2 --sync--
-# BFF3 Celestial Trail
-# BFF4 Celestial Trail
-# BFF5 Celestial Trail
-# BFF6 Celestial Trail
-# BFF7 Celestial Trail
-# BFF8 Celestial Trail
-# BFF9 Celestial Trail
-# BFFF Right Swordscross
-# C000 Left Swordscross
-# C001 Right Swordscross
-# C002 Left Swordscross
-# C003 Right Swordscross
-# C004 Left Swordscross
-# C005 Twin Blaze
-# C006 Twin Blaze
-# C007 Twin Blaze
-# C008 Twin Blaze
-# C009 Cataclysmic Blade
-# C00A Cataclysmic Blade
-# C00B Cataclysmic Blade
-# C00C Atomic Ray
-# C00D Atomic Ray
-# C00E Cosmic Flame
-# C00F Cosmic Flame
-# C010 Cosmic Flame
-# C011 Cosmic Flame
-# C012 Burst
-# C013 Burst
-# C014 Burst
-# C015 Burst
-# C016 Starflare
-# C017 Starflare
-# C018 Starflare
-# C019 Dark Nova
-# C01A Dark Nova
-# C01B Empty Proclamation
-# C01C --sync--
-# C01D --sync--
-# C01E Super Nova
-# C01F Super Nova
+
+# Shinryu
+# BFD1 Cosmic Breath: Upper platform denial, upper castbar
+# BFD2 Cosmic Breath: Upper platform denial, lower castbar
+# BFD3 Cosmic Breath: Upper platform denial
+# BFD4 Cosmic Tail: Lower platform denial, upper castbar
+# BFD5 Cosmic Tail: Lower platform denial, lower castbar
+# BFD6 Cosmic Tail: Lower platform denial
+# BFD7 Cloak of Twilight: Upper platform aspect
+# BFD8 Cloak of Twilight: Lower platform aspect
+# BFD9 Twilight Nebula: Upper platform debuff cast
+# BFDA Twilight Nebula: Lower platform debuff cast
+# BFDB Twilight Radiance: Light aspect floor explosion
+# BFDC Twilight Shadow: Dark aspect floor explosion
+# BFE1 Cataclysmic Vortex: Upper platform Simon Says cast
+# BFE2 Cataclysmic Vortex: Lower platform Simon Says cast
+# BFE3 Cataclysmic Vortex: Simon Says failure?
+# BFE4 Starflare: Upper platform grid line AoE castbar
+# BFE5 Starflare: Lower platform grid line AoE castbar
+# BFE6 Starflare: Grid line AoEs, first set
+# BFE7 Starflare: Grid line AoEs, second set
+# BFE8 Atomic Tail: Upper platform lower platform destruction castbar
+# BFE9 Atomic Tail: Lower platform lower platform destruction castbar
+# BFEA Atomic Tail: Lower platform destruction
+# BFEB Gyre Charge: Upper platform intermission cast
+# BFEC Gyre Charge: Lower platform intermission cast
+# BFED Gyre Charge: Intermission cast (inflicts Down For The Count))
+# BFEE Dark Nova: Upper platform tank cleave castbar
+# BFEF Dark Nova: Lower platform tank cleave castbar
+# BFF0 Dark Nova: Tank cleave
+# BFF1 --sync--: auto-attack self-cast
+# BFF2 --sync--: auto-attack
+
+# Hollow King
+# BFF3 Celestial Trail: Summon towers
+# BFF4 Celestial Trail: Towers resolve
+# BFF5 Celestial Trail: Tower animation?
+# BFF6 Celestial Trail: Tower damage
+# BFF7 Celestial Trail: Tower knockback
+# BFF8 Celestial Trail: Tower animation?
+# BFF9 Celestial Trail: Tower animation?
+# BFFF Right Swordscross: Right-side cleave castbar
+# C000 Left Swordscross: Left-side cleave castbar
+# C001 Right Swordscross: Right-side cleave, orthogonal
+# C002 Left Swordscross: Left-side cleave, orthogonal
+# C003 Right Swordscross: Right-side cleave, diagonal
+# C004 Left Swordscross: Left-side cleave, diagonal
+# C005 Twin Blaze: Cone + dynamo castbar, left safe
+# C006 Twin Blaze: Cone + dynamo castbar, right safe
+# C007 Twin Blaze: Cone AoE
+# C008 Twin Blaze: Dynamo AoE
+# C009 Cataclysmic Blade: Cones + debuffs castbars
+# C00A Cataclysmic Blade: Blue cone AoEs
+# C00B Cataclysmic Blade: Debuff failure?
+# C00C Atomic Ray: Timer line AoEs castbar
+# C00D Atomic Ray: Timer line AoEs
+# C00E Cosmic Flame: Exaflare castbar
+# C00F Cosmic Flame: Unknown, maybe alternate pattern castbar?
+# C010 Cosmic Flame: Exaflare
+# C011 Cosmic Flame: Exaflare
+# C012 Burst: Concentric circle AoEs castbar
+# C013 Burst: First concentric circle
+# C014 Burst: Second concentric circle
+# C015 Burst: Third concentric circle
+# C016 Starflare: Grid line AoE castbar
+# C017 Starflare: Grid line AoEs, first set
+# C018 Starflare: Grid line AoEs, second set
+# C019 Dark Nova: Tank cleave castbar
+# C01A Dark Nova: Tank cleave
+# C01B Empty Proclamation: Raidwide
+# C01C --sync--: auto-attack self-cast
+# C01D --sync--: auto-attack
+# C01E Super Nova: Stack marker castbar
+# C01F Super Nova: Stack marker hits
 
