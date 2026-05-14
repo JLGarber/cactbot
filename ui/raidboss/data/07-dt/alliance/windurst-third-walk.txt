@@ -288,7 +288,7 @@ hideall "--sync--"
 # C498 Malevolent Blessing: Radial cone AoEs
 # C499 Malevolent Blessing: Half-arena cleave
 # C49A Pestilent Penance: Frontal half-arena cleave castbar
-# C49B Pestilent Penance: Frontal half-arena cleave
+# C49C Pestilent Penance: Line AoE, Link of Promathia
 # C4A1 Comet: Splash buster castbar
 # C4A5 Meteor: Splash buster
 # C4A8 False Genesis: Raidwide before intermission
@@ -369,7 +369,6 @@ hideall "--sync--"
 3366.3 "Bastion of Twilight" Ability { id: "C492", source: "Promathia" }
 3368.4 "--jump--" Ability { id: "C4A6", source: "Promathia" }
 3371.0 "Explosion" Ability { id: "C490", source: "Promathia" }
-3376.4 "--sync--" Ability { id: "C49A", source: "Promathia" } # Pestilent Penance castbar
 3376.8 "Bastion of Twilight" Ability { id: "C494", source: "Promathia" }
 3376.9 "Pestilent Penance" Ability { id: "C49B", source: "Promathia" }
 3384.9 "--middle--" Ability { id: "C4A6", source: "Promathia" }
